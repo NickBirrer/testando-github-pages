@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+<html>
+  <div>
+    <p><label for="skuField">Digite o SKU/part number:</label></p>
+    <textarea rows="4" cols="50" type="text" class="autowidth" id="skuField" autofocus></textarea><br>
+    <button type="button" onclick="removeUnwantedChars()">Formate</button>
+  </div>
+  <div>
+    <p><label for="formatedSku">SKU/part number formatado:</label></p>
+    <textarea rows="4" cols="50" type="text" id="formatedSku" readonly></textarea><br>
+  </div>
+  <div>
+    <p><label for="csoField">Digite os CSOs:</label></p>
+    <textarea rows="4" cols="50" type="text" id="csoField"></textarea><br>
+    <button type="button" onclick="formataCso()">Formate</button>
+  </div>
+  <div>
+    <p><label for="formatedCso">CSOs formatados:</label></p>
+    <textarea rows="4" cols="50" type="text" id="formatedCso" readonly></textarea>
+  </div>
+</html>
+<script>
+  function removeUnwantedChars() {
+    let inputData = document.getElementById("skuField").value;
+    let formatedData = inputData.replaceAll('.', '').replaceAll('-', '').replaceAll('000', '');
+    document.getElementById("formatedSku").value = formatedData;
+  }
+  function formataCso() {
+    let inputData = document.getElementById("csoField").value;
+    let formatedData = inputData.replaceAll('Argentina', 'ARPT').replaceAll('Chile', 'CLPT').replaceAll('Mexico', 'MEPT')
+    .replaceAll('Colombia', 'COPT').replaceAll('Peru', 'PEPT').replaceAll('Equador', 'EQPT').replaceAll('Panama (RBPC)', 'PCPT')
+    .replaceAll('Uruguay', 'UYPT').replaceAll('Paraguay', 'PYPT').replaceAll('Brasil', 'LAPT');
+    document.getElementById("formatedCso").value = formatedData;
+  }
+</script>
+<style>
+  div { margin: 1rem; };
+  button { width: 100%; };
+</style>
