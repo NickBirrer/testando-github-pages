@@ -5,12 +5,19 @@ const route = (event) => {
   handleLocation();
 }
 
-const routes = {
+// const routes = { // github pages
+//   // 404: 'lembrar de fazer uma landing page',
+//   '/testando-github-pages/': 'testando-github-pages/home.html',
+//   '/testando-github-pages/videos.html': 'testando-github-pages/videos.html',
+//   '/testando-github-pages/imagens': 'testando-github-pages/imagens.html',
+//   '/testando-github-pages/contato.html': 'testando-github-pages/contato.html',
+// }
+const routes = { // local server
   // 404: 'lembrar de fazer uma landing page',
-  '/': 'testando-github-pages/home.html',
-  '/testando-github-pages/videos.html': 'testando-github-pages/videos.html',
-  '/testando-github-pages/imagens': 'testando-github-pages/imagens.html',
-  '/testando-github-pages/contato.html': 'testando-github-pages/contato.html',
+  '/': 'home.html',
+  '/videos.html': 'videos.html',
+  '/imagens': 'imagens.html',
+  '/contato.html': 'contato.html',
 }
 
 const handleLocation = async () => {
