@@ -9,7 +9,7 @@ template.innerHTML = `
     }
   </style>
   <ul>
-    <li><a href="/testando-github-pages/" onClick="route()">Home</a></li>
+    <li><a href="/testando-github-pages/home.html" onClick="route()">Home</a></li>
     <li><a href="/testando-github-pages/videos.html" onClick="route()">Videos</a></li>
     <li><a href="/testando-github-pages/imagens.html" onClick="route()">Imagens</a></li>
     <li><a href="/testando-github-pages/contato.html" onClick="route()">Contato</a></li>
