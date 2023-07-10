@@ -1,7 +1,6 @@
 import { dadosDosVideos } from './dados.js';
 
 const setupEmbeddedVideos = (array) => {
-  console.log('teste');
 const getEmbeddedElm = document.getElementById("embeddedVideos");
   let html = '';
   array.forEach(({ titulo, url }) => {
