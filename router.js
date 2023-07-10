@@ -8,9 +8,9 @@ const route = (event) => {
 const routes = {
   // 404: 'lembrar de fazer uma landing page',
   '/': 'testando-github-pages/home.html',
-  '/videos.html': 'testando-github-pages/videos.html',
-  '/imagens': 'testando-github-pages/imagens.html',
-  '/contato.html': 'testando-github-pages/contato.html',
+  '/testando-github-pages/videos.html': 'testando-github-pages/videos.html',
+  '/testando-github-pages/imagens': 'testando-github-pages/imagens.html',
+  '/testando-github-pages/contato.html': 'testando-github-pages/contato.html',
 }
 
 const handleLocation = async () => {

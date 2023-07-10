@@ -10,9 +10,9 @@ template.innerHTML = `
   </style>
   <ul>
     <li><a href="/" onClick="route()">Home</a></li>
-    <li><a href="/videos.html" onClick="route()">Videos</a></li>
-    <li><a href="/imagens.html" onClick="route()">Imagens</a></li>
-    <li><a href="/contato.html" onClick="route()">Contato</a></li>
+    <li><a href="/testando-github-pages/videos.html" onClick="route()">Videos</a></li>
+    <li><a href="/testando-github-pages/imagens.html" onClick="route()">Imagens</a></li>
+    <li><a href="/testando-github-pages/contato.html" onClick="route()">Contato</a></li>
   </ul>
 `;
 
