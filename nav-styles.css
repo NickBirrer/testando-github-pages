@@ -26,8 +26,9 @@ body
 {
   text-decoration: none;
   color: #03a122c9;
-  
-  transition: color 0.3s ease;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.1s ease;
 }
 
 #menuToggle a:hover
@@ -104,12 +105,12 @@ body
 #menu
 {
   position: absolute;
-  width: 300px;
+  width: 150px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
   
-  background: #9ba0a060;
+  background: #5c676760;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   

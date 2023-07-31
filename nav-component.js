@@ -12,7 +12,7 @@ const template = document.createElement('template');
 //       <span></span>
       
 //       <ul id="menu">
-//       <li><a href="/home.html" onClick="route()">Home</a></li>
+//       <li><a href="/index.html" onClick="route()">Home</a></li>
 //       <li><a href="/videos.html" onClick="route()">Videos</a></li>
 //       <li><a href="/imagens.html" onClick="route()">Imagens</a></li>
 //       <li><a href="/contato.html" onClick="route()">Contato</a></li>

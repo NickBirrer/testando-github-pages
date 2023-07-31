@@ -1,0 +1,25 @@
+.embedded-video {
+  margin: 2rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(40, 109, 24, 0.65);
+  box-shadow: 1px 1px 4px rgba(40, 109, 24, 0.65);
+}
+
+.video-container {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.video-title {
+  color: #03a122c9;
+  margin: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: -3.5rem;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

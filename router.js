@@ -7,8 +7,6 @@ const route = (event) => {
 
 const routes = { 
   // 404: 'lembrar de fazer uma landing page',
-  '/': 'home.html',
-  '/home': 'home.html',
   '/videos.html': 'videos.html',
   '/imagens': 'imagens.html',
   '/contato.html': 'contato.html',
