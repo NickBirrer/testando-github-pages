@@ -1,15 +1,12 @@
 let dadosDosVideos = [
-  { titulo: 'Teste', url: 'https://www.youtube.com/embed/34CZjsEI1yU' },
-  { titulo: 'Teste de nome mega grandao super master blaster', url: 'https://www.youtube.com/embed/34CZjsEI1yU' },
-  { titulo: 'Teste nome medio', url: 'https://www.youtube.com/embed/34CZjsEI1yU' },
-  { titulo: 'Teste4', url: 'https://www.youtube.com/embed/34CZjsEI1yU' },
-  { titulo: 'Teste5', url: 'https://www.youtube.com/embed/34CZjsEI1yU' },
-  { titulo: 'Teste5', url: 'https://www.youtube.com/embed/34CZjsEI1yU' },
-  { titulo: 'Teste5', url: 'https://www.youtube.com/embed/34CZjsEI1yU' },
-  { titulo: 'Teste5', url: 'https://www.youtube.com/embed/34CZjsEI1yU' },
-  { titulo: 'Teste5', url: 'https://www.youtube.com/embed/34CZjsEI1yU' },
-  { titulo: 'Teste5', url: 'https://www.youtube.com/embed/34CZjsEI1yU' },
-  { titulo: 'Teste5', url: 'https://www.youtube.com/embed/34CZjsEI1yU' },
+  { titulo: 'Teste1', url: 'https://www.youtube.com/embed/vZd6EsggUEg' },
+  { titulo: 'Teste2', url: 'https://www.youtube.com/embed/vZd6EsggUEg' },
+  { titulo: 'Teste3', url: 'https://www.youtube.com/embed/vZd6EsggUEg' },
+  { titulo: 'Teste4', url: 'https://www.youtube.com/embed/vZd6EsggUEg' },
+  { titulo: 'Teste5', url: 'https://www.youtube.com/embed/vZd6EsggUEg' },
+  { titulo: 'Teste6', url: 'https://www.youtube.com/embed/vZd6EsggUEg' },
+  { titulo: 'Teste7', url: 'https://www.youtube.com/embed/vZd6EsggUEg' },
+  { titulo: 'Teste8', url: 'https://www.youtube.com/embed/vZd6EsggUEg' },
 ];
 
 let dadosDasImagens = [

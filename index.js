@@ -1,7 +1,7 @@
 import { dadosDosVideos, dadosDasImagens } from './dados.js';
 
 const setupEmbeddedVideos = (array) => {
-  array = array.slice(array.length - 6, array.length - 1); // pegando somente os 5 ultimos elementos
+  array = array.slice(array.length - 5, array.length); // pegando somente os 5 ultimos elementos
   let html = '';
   array.forEach(({ titulo, url }) => {
     const embed = `
@@ -19,7 +19,7 @@ const setupEmbeddedVideos = (array) => {
 }
 
 const setupImages = (array) => {
-  array = array.slice(array.length - 6, array.length - 1); // pegando somente os 5 ultimos elementos
+  array = array.slice(array.length - 5, array.length); // pegando somente os 5 ultimos elementos
   let html = '';
   array.forEach(({ titulo, url, description }) => {
     const embed = `
