@@ -1,7 +1,7 @@
-const template = document.createElement('template');
+const navTemplate = document.createElement('template');
 
 // local server
-// template.innerHTML = `
+// navTemplate.innerHTML = `
 //   <link rel="stylesheet" type="text/css" href="nav-styles.css" />
 //   <nav role="navigation">
 //     <div id="menuToggle">
@@ -21,7 +21,7 @@ const template = document.createElement('template');
 //   </nav>
 // `;
 // github pages
-template.innerHTML = `
+navTemplate.innerHTML = `
   <link rel="stylesheet" type="text/css" href="nav-styles.css" />
   <nav role="navigation">
     <div id="menuToggle">
@@ -45,7 +45,7 @@ class NavComponent extends HTMLElement {
   
   connectedCallback() {
     this.attachShadow({ mode: 'open' });
-    this.shadowRoot.appendChild(template.content.cloneNode(true));
+    this.shadowRoot.appendChild(navTemplate.content.cloneNode(true));
   }
 }
 

@@ -1,4 +1,5 @@
 .image-container {
+  user-select: none;
   flex-direction: column;
   display: flex;
   flex-wrap: wrap;
@@ -6,11 +7,12 @@
 }
 
 .image-title {
+  user-select: none;
+  text-align: center;
   color: #03a122c9;
   margin: 2.5rem;
   margin-bottom: 1.6rem;
-  font-size: 24px;
+  font-size: 1.6em;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }

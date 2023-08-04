@@ -1,9 +1,10 @@
 .embedded-video {
   margin: 2rem;
   border-width: 2px;
+  width: 42.7rem;
+  height: 24rem;
   border-style: solid;
   border-color: rgba(40, 109, 24, 0.65);
-  box-shadow: 1px 1px 4px rgba(40, 109, 24, 0.65);
 }
 
 .video-container {
@@ -14,12 +15,12 @@
 }
 
 .video-title {
+  text-align: center;
   color: #03a122c9;
   margin: 2.5rem;
   margin-top: 2rem;
   margin-bottom: -3.5rem;
-  font-size: 24px;
+  font-size: 1.6em;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }

@@ -5,7 +5,7 @@ const setupImages = (array) => {
   array.forEach(({ titulo, url, description }) => {
     const embed = `
       <h3 class="image-title">${titulo}</h3>
-      <img style="width:250px; height:auto" src="${url}" alt="${description}">
+      <img style="width:28rem; height:auto" src="${url}" alt="${description}">
     `;
     html += embed;
   });
