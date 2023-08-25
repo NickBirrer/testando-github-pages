@@ -1,7 +1,8 @@
-import { dadosDosVideos, dadosDasImagens } from './dados.js';
+import { dadosDosVideos, dadosDasImagens, dadosDosContatos } from '../dados.js';
 
 const setupEmbeddedVideos = (array) => {
   array = array.slice(array.length - 3, array.length); // pegando somente os 3 ultimos elementos
+  array = array.reverse();
   let html = '';
   array.forEach(({ titulo, url }) => {
     const embed = `
@@ -20,6 +21,7 @@ const setupEmbeddedVideos = (array) => {
 
 const setupImages = (array) => {
   array = array.slice(array.length - 3, array.length); // pegando somente os 3 ultimos elementos
+  array = array.reverse();
   let html = '';
   array.forEach(({ titulo, url, description }) => {
     const embed = `
@@ -33,5 +35,22 @@ const setupImages = (array) => {
   template.innerHTML = html;
 }
 
+const setupContato = (array) => {
+  array = array.slice(array.length - 3, array.length); // pegando somente os 3 ultimos elementos
+  array = array.reverse();
+  let html = '';
+  array.forEach(({ titulo, url, description }) => {
+    const embed = `
+      <h3 class="image-title">${titulo}</h3>
+      <img style="width:24rem; height:auto" src="${url}" alt="${description}">
+    `;
+    html += embed;
+  });
+  html = `<div class="image-container">${html}</div>`;
+  let template = document.getElementById('home-contato-component');
+  template.innerHTML = html;
+}
+
 setupEmbeddedVideos(dadosDosVideos);
 setupImages(dadosDasImagens);
+setupContato(dadosDosContatos);

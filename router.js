@@ -6,9 +6,9 @@ const route = () => {
 }
 
 const routes = { 
-  '/videos.html': 'videos.html',
-  '/imagens': 'imagens.html',
-  '/contato.html': 'contato.html',
+  '/rigging': 'rigging.html',
+  '/drawing': 'drawing.html',
+  '/contato': 'contato.html',
 }
 
 const handleLocation = async () => {

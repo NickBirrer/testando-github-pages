@@ -1,6 +1,7 @@
-import { dadosDasImagens } from './dados.js';
+import { dadosDosContatos } from '../dados.js';
 
-const setupImages = (array) => {
+const setupContato = (array) => {
+  array = array.reverse();
   let html = '';
   array.forEach(({ titulo, url, description }) => {
     const embed = `
@@ -10,8 +11,8 @@ const setupImages = (array) => {
     html += embed;
   });
   html = `<div class="image-container">${html}</div>`;
-  let template = document.getElementById('home-images-component');
+  let template = document.getElementById('contato-component');
   template.innerHTML = html;
 }
 
-setupImages(dadosDasImagens);
+setupContato(dadosDosContatos);

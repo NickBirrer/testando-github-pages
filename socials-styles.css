@@ -1,9 +1,0 @@
-#socials-component {
-  user-select: none;
-  color: aliceblue;
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  top: 12rem;
-  left: 1rem;
-}

@@ -2,8 +2,8 @@ const navTemplate = document.createElement('template');
 
 // local server
 // navTemplate.innerHTML = `
-//   <link rel="stylesheet" type="text/css" href="nav-styles.css" />
-//   <nav role="navigation">
+//   <link rel="stylesheet" type="text/css" href="./styles/nav-styles.css" />
+//   <nav class="nav-wrapper" role="navigation">
 //     <div id="menuToggle">
 //       <input type="checkbox" />
       
@@ -13,9 +13,9 @@ const navTemplate = document.createElement('template');
       
 //       <ul id="menu">
 //       <li><a href="/index.html" onClick="route()">Home</a></li>
-//       <li><a href="/videos.html" onClick="route()">Videos</a></li>
-//       <li><a href="/imagens.html" onClick="route()">Imagens</a></li>
-//       <li><a href="/contato.html" onClick="route()">Contato</a></li>
+//       <li><a href="/rigging.html" onClick="route()">Riggings</a></li>
+//       <li><a href="/drawing.html" onClick="route()">Drawings</a></li>
+//       <li><a href="/modelling.html" onClick="route()">Modellings</a></li>
 //       </ul>
 //     </div>
 //   </nav>
@@ -33,9 +33,9 @@ navTemplate.innerHTML = `
       
       <ul id="menu">
       <li><a href="/testando-github-pages/index.html" onClick="route()">Home</a></li>
-      <li><a href="/testando-github-pages/videos.html" onClick="route()">Videos</a></li>
-      <li><a href="/testando-github-pages/imagens.html" onClick="route()">Imagens</a></li>
-      <li><a href="/testando-github-pages/contato.html" onClick="route()">Contato</a></li>
+      <li><a href="/testando-github-pages/rigging.html" onClick="route()">Riggings</a></li>
+      <li><a href="/testando-github-pages/drawing.html" onClick="route()">Drawings</a></li>
+      <li><a href="/testando-github-pages/modelling.html" onClick="route()">Modellings</a></li>
       </ul>
     </div>
   </nav>

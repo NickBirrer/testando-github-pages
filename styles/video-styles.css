@@ -1,13 +1,14 @@
 .embedded-video {
   margin: 2rem;
   border-width: 2px;
-  width: 42.7rem;
-  height: 24rem;
+  width: 36rem;
+  height: 20rem;
   border-style: solid;
-  border-color: rgba(40, 109, 24, 0.65);
+  border-color: #3eeddbc4;
 }
 
 .video-container {
+  user-select: none;
   flex-direction: column;
   display: flex;
   flex-wrap: wrap;
@@ -15,8 +16,9 @@
 }
 
 .video-title {
+  user-select: none;
   text-align: center;
-  color: #03a122c9;
+  color: #3eeddbc4;
   margin: 2.5rem;
   margin-top: 2rem;
   margin-bottom: -3.5rem;

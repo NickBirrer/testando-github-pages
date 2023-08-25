@@ -1,5 +1,5 @@
 /* completamente copiado e adaptado daqui: https://codepen.io/erikterwan/pen/EVzeRP */
-body
+.nav-wrapper
 {
   margin: 0;
   padding: 0;
@@ -25,7 +25,7 @@ body
 #menuToggle a
 {
   text-decoration: none;
-  color: #03a122c9;
+  color: #3eeddbc4;
   font-weight: bold;
   letter-spacing: 1px;
   transition: color 0.1s ease;
@@ -62,7 +62,7 @@ body
   margin-bottom: 5px;
   position: relative;
   
-  background: #03a122c9;
+  background: #3eeddbc4;
   border-radius: 3px;
   
   z-index: 1;
@@ -88,7 +88,7 @@ body
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #03a122c9;
+  background: #3eeddbc4;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3)
@@ -105,10 +105,12 @@ body
 #menu
 {
   position: absolute;
-  width: 150px;
+  width: 100px;
   margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
+  padding: 110px 40px 12px 50px;
+  /* padding-left: 50px;
+  padding-right: 36px;
+  padding-top: 125px; */
   
   background: #5c676760;
   list-style-type: none;
