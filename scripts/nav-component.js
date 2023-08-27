@@ -22,7 +22,7 @@ const navTemplate = document.createElement('template');
 // `;
 // github pages
 navTemplate.innerHTML = `
-  <link rel="stylesheet" type="text/css" href="nav-styles.css" />
+  <link rel="stylesheet" type="text/css" href="./styles/nav-styles.css" />
   <nav role="navigation">
     <div id="menuToggle">
       <input type="checkbox" />
