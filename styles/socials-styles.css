@@ -9,7 +9,8 @@
 
 .fa {
   padding: 12px;
-  width: 32px;
+  width: 16px;
+  height: 16px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -32,4 +33,42 @@
 .fa-square {
   background: #0089fb;
   color: #0089fb;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-brands {
+  padding: 12px;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.custom-icon {
+  padding: 12px;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.custom-icon:hover {
+  opacity: 0.7;
+}
+
+.artstation {
+  background-color: white;
+  background-image: url('https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Artstation-512.png');
+  background-size: cover;
+}
+
+.bluesky {
+  background-image: url('https://play-lh.googleusercontent.com/C5Uh9fZ4hAFm7SKrfDBdDZKgvDmDQO06aIBHlmPm3nLubNIz0RIl86E0CtI0RCHvoQva');
+  background-size: cover;
 }

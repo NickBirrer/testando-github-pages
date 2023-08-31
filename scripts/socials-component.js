@@ -7,12 +7,12 @@ socialsTemplate.innerHTML = `
   <div id="socials-component">
     <a href="https://www.instagram.com/blue_lightfoot/" target="_blank" class="fa fa-facebook fa-lg"></a>
     <a href="https://www.instagram.com/blue_lightfoot/" target="_blank" class="fa fa-instagram fa-lg"></a>
-    <a href="https://www.instagram.com/blue_lightfoot/" target="_blank" class="fa fa-square fa-lg"></a>
+    <a href="https://www.instagram.com/blue_lightfoot/" target="_blank" class="custom-icon bluesky"></a>
+    <a href="https://www.instagram.com/blue_lightfoot/" target="_blank" class="fa fa-tumblr fa-lg"></a>
+    <a href="https://www.instagram.com/blue_lightfoot/" target="_blank" class="custom-icon artstation"></a>
   </div>
 `;
 
-
-// twitter, instagram, bluesky, tumblr, artstation
 class SocialsComponent extends HTMLElement {
   
   connectedCallback() {
