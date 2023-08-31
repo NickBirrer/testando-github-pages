@@ -105,13 +105,9 @@
 #menu
 {
   position: absolute;
-  width: 100px;
+  width: 132px;
   margin: -100px 0 0 -50px;
-  padding: 110px 40px 12px 50px;
-  /* padding-left: 50px;
-  padding-right: 36px;
-  padding-top: 125px; */
-  
+  padding: 110px 40px 4px 50px;
   background: #5c676760;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -125,7 +121,7 @@
 #menu li
 {
   padding: 10px 0;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 #menuToggle input:checked ~ ul
